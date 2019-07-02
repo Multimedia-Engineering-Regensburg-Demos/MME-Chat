@@ -1,0 +1,19 @@
+{
+  "name": "mme-chat-mit-websockets",
+  "version": "0.0.1",
+  "description": "A simple chat application based on Node.js and Websockets",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Alexander Bazo <alexander.bazo@ur.de>",
+  "license": "MIT",
+  "dependencies": {
+    "animal-avatars.js": "0.0.2",
+    "express": "^4.17.1",
+    "websocket": "^1.0.28"
+  }
+}

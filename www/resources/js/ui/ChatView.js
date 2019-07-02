@@ -37,6 +37,12 @@ class ChatView extends Observable {
       onMessageButtonClicked);
   }
 
+  addMessage(message, isOwnMessage) {
+    let messageEl = createMessageElement(message.message, message.user.name,
+      message.user.image, isOwnMessage);
+    listEl.appendChild(messageEl);
+  }
+
 }
 
 view = new ChatView();

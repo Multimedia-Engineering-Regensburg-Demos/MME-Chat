@@ -1,6 +1,6 @@
 {
   "name": "mme-chat-mit-websockets",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "A simple chat application based on Node.js and Websockets",
   "main": "index.js",
   "directories": {
@@ -14,6 +14,15 @@
   "dependencies": {
     "animal-avatars.js": "0.0.2",
     "express": "^4.17.1",
+    "http-server": "^0.11.1",
     "websocket": "^1.0.28"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Multimedia-Engineering-Regensburg-Demos/MME-Chat.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Multimedia-Engineering-Regensburg-Demos/MME-Chat/issues"
+  },
+  "homepage": "https://github.com/Multimedia-Engineering-Regensburg-Demos/MME-Chat#readme"
 }

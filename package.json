@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "animal-avatars.js": "0.0.2",
-    "express": "^4.17.1",
+    "express": "^4.17.3",
     "http-server": "^0.11.1",
     "websocket": "^1.0.28"
   },
